@@ -19,7 +19,7 @@ export default async function handler(req, res) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer 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`, // Replace this!
+        Authorization: `Bearer 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`, // Replace this!
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo", // Try "gpt-3.5-turbo" if you want to save cost
