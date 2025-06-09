@@ -22,7 +22,7 @@ export default async function handler(req, res) {
         Authorization: `Bearer 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`, // Replace this!
       },
       body: JSON.stringify({
-        model: "gpt-4", // Try "gpt-3.5-turbo" if you want to save cost
+        model: "gpt-3.5-turbo", // Try "gpt-3.5-turbo" if you want to save cost
         messages,
       }),
     })
